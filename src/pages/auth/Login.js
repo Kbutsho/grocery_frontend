@@ -63,7 +63,7 @@ const Login = () => {
             <BiLogIn size={35} color="#999" />
           </div>
           <h2>Login</h2>
-
+          <small style={{ fontWeight: "bold", color: "red" }}>hints: <br /> email: kbutsho@gmail.com <br /> password: Admin@1234</small>
           <form onSubmit={login}>
             <input
               type="email"
